@@ -1,29 +1,25 @@
-# Create personalized recommendations for Customer in fast food (drive-in)
+# Create personalized recommendations for Customers in fast food restaurant
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Goal of this project would be to create system which would display recommendations tailored to each Customer preferences based on the historical data for each Customer. Data will be gathered using information about order history crossreferenced with other information which could be used to identify specific Customer (e.g. loyalty card, credit card information, vehicle licenceplate on drive-in etc.). Recommendations will be displayed to Customer on self-service kiosks and at display board in drive-in.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+In recent years fast-food sales have slowed as people turn to more healtier alternatives. By using recommendation system, similiar like one implemented for example on Amazon or Netflix, total sale should be increased.
 
 ## How is it used?
+
+
 
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Self-service kiosk (example)](https://upload.wikimedia.org/wikipedia/commons/0/03/Denton_House_LI_03_-_Order_kiosk.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
