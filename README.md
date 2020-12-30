@@ -1,47 +1,76 @@
+
 # Create personalized recommendations in fast food restaurant
 
 Final project for the Building AI course
 
 ## Summary
 
-Goal of this project would be to create system which would display recommendations tailored to each Customer preferences based on the historical data for each Customer. Data will be gathered using information about order history crossreferenced with other information which could be used to connect it to the specific Customer (e.g. loyalty card, credit card information, vehicle licenceplate on drive-in etc.). Recommendations will be displayed to Customer on self-service kiosks and at menu display board in drive-in.
+Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
 
 
 ## Background
 
-In recent years fast-food sales have slowed as people turn to the alternatives. By using recommendation system, products with highest probability to be sold for specific Customer will be recommended what should have positive impact on sale. 
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+
+This is how you make a list, if you need one:
+* problem 1
+* problem 2
+* etc.
+
 
 ## How is it used?
-First step is to identify specific Customer. For this purpose, it will be used following methods:
-- indoor - for example via loyalty card
-- drive-in - for example by car licenceplate
 
-After Customer is positively identified, background system will need in short period of time before Customer places an order, create recommendations and display them to the Customer. Recommendations could be displayed, for example:
-- indoor - as part of graphical user interface on self-service kiosk
-- outdoor - as part of display placed at drive-in
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
+
+   totPop = sum(pop)
+   totFish = sum(fishers)
+
+   # write your solution here
+
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+
+main()
+```
+
 
 ## Data sources and AI methods
-System woudl require following data sources:
-- information required to identify Customers - e.g. via loyalty card system or by using automatic number plate recognition (ANPR) at drive-in
-- information about Customers - e.g. information about age of the Customer, gender
-- information about previous order history for the Customer - this information should be available in interal database of the company
-- Other relevant information - e.g. actual weather conditions to create weather based recommendations (e.g. cold drink in summer, hot dring in winter) from publicly available public weather services (for example: WeatherStack API), information about actual marketing campaigns (e.g. to prefer articles which are currently in special offer etc.)
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
 
-After Customer is positively identified, information will be provided to recommendation system. Recommendation system will be based on neural network. As it is expected that it will be required to process large amount of data in short period, task will be roughly divided into two sub-tasks:
-1. choose top N-candidates
-2. ranking them
-
-Output of the recommendation system will be one or more items which will be then displayed to the Customer during order generation process.
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ## Challenges
 
-In order to objectively evaluate quality of the model it will be required to define appropriate quality metrics, specially for recommendation systems (e.g. Recall@k, Precision@k).
-
-As system requires some amount of personal data to be collected, this should be done with Customer consent and in compliance with with local law on data protection and privacy. 
+What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
 ## What next?
 
-Next step would be to create data model for data sources for Customer, orders and items and then to start building the model of the recommendation system. Anyone interested to help are welcome to contribute.
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+
 
 ## Acknowledgments
-Recommendation System Algorithms by Daniil Korbut (link: https://blog.statsbot.co/recommendation-system-algorithms-ba67f39ac9a3, retrieved on 30.12.2020)
+
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
