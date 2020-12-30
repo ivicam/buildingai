@@ -1,4 +1,4 @@
-# Project Title
+# Create personalized recommendations for Customer in fast food (drive-in)
 
 Final project for the Building AI course
 
