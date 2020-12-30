@@ -22,7 +22,7 @@ Once you upload an image to your repository, you can link link to it like this (
 ![Self-service kiosk (example)](https://upload.wikimedia.org/wikipedia/commons/0/03/Denton_House_LI_03_-_Order_kiosk.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Denton_House_LI_03_-_Order_kiosk.jpg" width="300">
 
 This is how you create code examples:
 ```
