@@ -1,4 +1,4 @@
-# Create personalized recommendations for Customers in fast food restaurant
+# Create personalized recommendations in fast food restaurant
 
 Final project for the Building AI course
 
