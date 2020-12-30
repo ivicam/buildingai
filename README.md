@@ -41,7 +41,7 @@ As system requires some amount of personal data to be collected, this should be 
 
 ## What next?
 
-
+Next step would be to create data model for data sources for Customer, orders and items and then to start building the model of the recommendation system. Anyone interested to help are welcome to contribute.
 
 ## Acknowledgments
 Recommendation System Algorithms by Daniil Korbut (link: https://blog.statsbot.co/recommendation-system-algorithms-ba67f39ac9a3, retrieved on 30.12.2020)
