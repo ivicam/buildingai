@@ -4,7 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-Goal of this project would be to create system which would display recommendations tailored to each Customer preferences based on the historical data for each Customer. Data will be gathered using information about order history crossreferenced with other information which could be used to identify specific Customer (e.g. loyalty card, credit card information, vehicle licenceplate on drive-in etc.). Recommendations will be displayed to Customer on self-service kiosks and at display board in drive-in.
+Goal of this project would be to create system which would display recommendations tailored to each Customer preferences based on the historical data for each Customer. Data will be gathered using information about order history crossreferenced with other information which could be used to connect it to the specific Customer (e.g. loyalty card, credit card information, vehicle licenceplate on drive-in etc.). Recommendations will be displayed to Customer on self-service kiosks and at menu display board in drive-in.
 
 
 ## Background
